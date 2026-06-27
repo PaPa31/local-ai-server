@@ -1,0 +1,17 @@
+# Block all heavy voice model binaries and configurations
+*.onnx
+*.onnx.json
+
+# Block compressed tarball archives
+*.tar.gz
+
+# Block raw sample recordings and test speech exports
+*.wav
+*.mp3
+
+# Block backup/duplicate scripts
+*copy.py
+
+# Block application runtime directories
+piper/
+models/
